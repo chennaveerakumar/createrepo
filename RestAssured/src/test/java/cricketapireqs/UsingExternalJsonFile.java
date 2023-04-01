@@ -32,6 +32,8 @@ public class UsingExternalJsonFile {
 	       .body("location", equalTo("India"))
 	       .body("phone", equalTo("1234569870"))
 	       .log().all();
+	   
+	   
    }
    @Test
    public void getRes() {
@@ -41,6 +43,8 @@ public class UsingExternalJsonFile {
 	   .then()
 	     .statusCode(200)
 	     .log().all();
+	   
+	   
    }
   // @Test
    public void DeleteRes() {
